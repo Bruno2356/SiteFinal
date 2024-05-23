@@ -1,0 +1,135 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Fotos {
+    display: flex;
+    justify-content: center;
+}
+.botao {
+   border: 2px solid black;
+   width: 100px;
+   height: 50px;
+   border-radius: 500px;
+   background-color: white;
+}
+.botao a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.UniubeLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgUniube{
+    width: 30vh;
+}
+
+#fotochapada{
+    height: 35vh;
+}
+
+.ImgHome{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.formularioContato { 
+    max-width:600px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#fff; 
+    position:relative; 
+}
+.formularioContato:before { 
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+}
+.formularioContato label  { 
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+}
+.formularioContato label span {
+    width: 100%;
+    float: left;
+    color: black;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+}
+.formularioContato label input  { 
+    font-size:1em; 
+    color:black; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+}
+.formularioContato label select { 
+    font-size:1em; 
+    color:black; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+}
+.formularioContato label textarea { 
+    font-size:1em; 
+    color:black; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:1.4em; 
+    outline:none;
+    transition: 0.3s;   
+}
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(0, 0, 0) solid; color:rgb(0, 0, 0);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(0, 0, 0) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(0, 0, 0) solid; color:rgb(0, 0, 0);}
+.formularioContato button.btn-envia { 
+    background-color:rgb(0, 0, 0); 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+}
+.formularioContato button.btn-envia:hover { 
+    background-color:#333; 
+}
+
+.ListaFotos {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
